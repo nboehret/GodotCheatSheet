@@ -39,3 +39,9 @@ Same as: `get_node("VSplitContainer/Label").text = 'Hello'`
 #### String Contains Value
 
 `if 'string' in 'string variable' or 'string' in s:`
+
+## UI / Control Nodes
+
+### Expand to fill Vertical or Horizontal
+
+A child needs to have the `Size_Flags` set to expand and its parent needs to as well. This is true for parents up the tree unless they already are filling a space in the case of some control items
